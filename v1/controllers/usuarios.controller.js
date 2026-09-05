@@ -10,7 +10,7 @@ export const obtenerUsuarios = (req, res) => {
 }
 
 export const obtenerUsuarioPorId = (req, res) => {
-  const { id } = req.params;
+  const id = req.validatedParams.id;
   const usuario = usuarios.find(u => u.id === parseInt(id));
   if (!usuario) {
     return res.status(404).json({ message: `No se encontró el usuario` });

@@ -42,6 +42,15 @@ export const crearUsuarioSchema = Joi.object({
   }),
 });
 
+export const obtenerUsuarioPorIdSchema = Joi.object({
+  id: Joi.number().integer().positive().required().messages({
+    'number.base': 'El ID del usuario debe ser un número',
+    'number.integer': 'El ID del usuario debe ser un número entero',
+    'number.positive': 'El ID del usuario debe ser un número positivo',
+    'any.required': 'El ID del usuario es obligatorio',
+  })
+});
+
 export const obtenerUsuarioPorNombreSchema = Joi.object({
   nombreUsuario: Joi.string().trim().lowercase().required().min(5).max(50).lowercase().messages({
     'string.base': 'El nombre de usuario debe ser una cadena de texto',
@@ -50,3 +59,4 @@ export const obtenerUsuarioPorNombreSchema = Joi.object({
     'string.max': 'El nombre de usuario no puede tener más de {#limit} caracteres',
   }),
 });
+

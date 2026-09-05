@@ -11,10 +11,10 @@ export const crearJuegoSchema = Joi.object({
     'string.empty': 'La descripción del juego no puede estar vacía',
     'string.max': 'La descripción del juego no puede superar los {#limit} caracteres',
   }),
-  edadMinima: Joi.number().integer().min(0).max(18).required().messages({
+  edadMinima: Joi.number().integer().positive().max(18).required().messages({
     'number.base': 'La edad mínima debe ser un número',
     'number.integer': 'La edad mínima debe ser un número entero',
-    'number.min': 'La edad mínima no puede ser un número negativo',
+    'number.positive': 'La edad mínima debe ser un número positivo',
     'number.max': 'La edad mínima no puede ser mayor a 18',
   }),
   categoriaId: Joi.array().items(Joi.number().integer().min(1)).min(1).required().messages({
@@ -23,4 +23,16 @@ export const crearJuegoSchema = Joi.object({
     'number.min': 'Cada ID de categoría debe ser un número entero',
     'any.required': 'El juego debe tener al menos una categoría',
   }),
+
 });
+
+export const obtenerJuegoPorIdSchema = Joi.object({
+  id: Joi.number().integer().positive().required().messages({
+    'number.base': 'El ID del juego debe ser un número',
+    'number.integer': 'El ID del juego debe ser un número entero',
+    'number.positive': 'El ID del juego debe ser un número positivo',
+    'any.required': 'El ID del juego es obligatorio',
+  })
+});
+
+export const eliminarJuegoSchema = obtenerJuegoPorIdSchema;

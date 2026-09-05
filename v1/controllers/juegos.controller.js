@@ -84,7 +84,7 @@ export const obtenerJuegos = (req, res) => {
 }
 
 export const obtenerJuegoPorID = (req, res) => {
-    const { id } = req.params;
+    const id = req.validatedParams.id;
     const juego = juegos.find(j => j.id === parseInt(id));
     if (!juego) {
         return res.status(404).json({ message: 'No se encontró el juego' });
@@ -101,7 +101,7 @@ export const crearJuego = (req, res) => {
 }
 
 export const eliminarJuego = (req, res) => {
-    const { id } = req.params;
+    const id = req.validatedParams.id;
     const juegoIndex = juegos.findIndex(j => j.id === parseInt(id));
     if (juegoIndex === -1) {
         return res.status(404).json({ message: 'No se encontró el juego' });

@@ -9,7 +9,7 @@ let categoriasJuegos = [
     { id: 8, nombreCategoria: 'Multijugador' },
     { id: 9, nombreCategoria: 'Indie' },
     { id: 10, nombreCategoria: 'Puzzle' },
-    { id: 11, nombreCategoria: 'First Person Shooter'}
+    { id: 11, nombreCategoria: 'First Person Shooter' }
 ];
 
 export const obtenerCategorias = (req, res) => {
@@ -19,8 +19,8 @@ export const obtenerCategorias = (req, res) => {
     res.status(200).json(categoriasJuegos);
 }
 
-export const obtenerCategoriaPorID = (req, res) => {
-    const { id } = req.params;
+export const obtenerCategoriaPorId = (req, res) => {
+    const id = req.validatedParams.id;
     const categoria = categoriasJuegos.find(c => c.id === parseInt(id));
     if (!categoria) {
         return res.status(404).json({ message: 'No se encontró la categoría' });
@@ -37,7 +37,7 @@ export const crearCategoria = (req, res) => {
 }
 
 export const eliminarCategoria = (req, res) => {
-    const { id } = req.params;
+    const id = req.validatedParams.id;
     const categoriaIndex = categoriasJuegos.findIndex(c => c.id === parseInt(id));
     if (categoriaIndex === -1) {
         return res.status(404).json({ message: 'No se encontró la categoría' });
