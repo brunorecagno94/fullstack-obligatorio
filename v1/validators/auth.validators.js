@@ -52,4 +52,6 @@ export const registroSchema = Joi.object({
     'string.base': 'El país debe ser una cadena de texto',
     'string.max': 'El país no puede tener más de {#limit} caracteres',
   }),
+}).messages({
+  'object.unknown': 'El campo {#label} no está permitido'
 });

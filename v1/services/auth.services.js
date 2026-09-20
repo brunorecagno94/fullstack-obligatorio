@@ -24,7 +24,7 @@ export const registroService = async (usuarioData) => {
     }
 
     const hashedPassword = await bcrypt.hash(usuarioData.password, Number(process.env.ROUND));
-    const usuario = new Usuario({ ...usuarioData, password: hashedPassword, planUsuario: "plus" });
+    const usuario = new Usuario({ ...usuarioData, password: hashedPassword, rol: "usuario", planUsuario: "plus" });
     const token = generarToken(usuario);
     await usuario.save();
     return { usuario, token };
