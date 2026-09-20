@@ -1,13 +1,9 @@
 import express from 'express';
-import { obtenerUsuarioPorIdSchema, crearUsuarioSchema } from '../validators/usuarios.validators.js';
-import { obtenerUsuarios, crearUsuario, obtenerUsuarioPorId } from '../controllers/usuarios.controller.js';
-import validarBodyMiddleware from '../middlewares/validatedBody.middleware.js';
-import validarPramsMiddleware from '../middlewares/validatedParams.middleware.js';
+import { upgradePlanUsuario } from '../controllers/usuarios.controller.js';
+import authorizationMiddleware from '../middlewares/authorization.middleware.js';
 
 const router = express.Router();
 
-router.get('/', obtenerUsuarios);
-router.get('/:id', validarPramsMiddleware(obtenerUsuarioPorIdSchema), obtenerUsuarioPorId);
-router.post('/', validarBodyMiddleware(crearUsuarioSchema), crearUsuario);
+router.patch('/upgrade', authorizationMiddleware('usuario'), upgradePlanUsuario)
 
 export default router;
