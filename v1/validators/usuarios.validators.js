@@ -17,3 +17,10 @@ export const obtenerUsuarioPorNombreSchema = Joi.object({
   }),
 });
 
+export const comprarJuegoSchema = Joi.object({
+    id: Joi.string().hex().length(24).required().messages({
+    'string.hex': 'El id debe ser un ObjectId válido',
+    'string.length': 'El id debe tener 24 caracteres',
+    'any.required': 'El id es obligatorio',
+  })
+})

@@ -1,77 +1,52 @@
-export const juegos = [{
-    id: 1,
-    nombreJuego: 'Dark Souls',
-    descripcionJuego: 'Un juego de rol de acción desafiante y oscuro.',
-    edadMinima: 16,
-    categoriaId: [1, 2, 3]
-},
-{
-    id: 2,
-    nombreJuego: 'Valorant',
-    descripcionJuego: 'Un juego de disparos táctico en primera persona.',
-    edadMinima: 13,
-    categoriaId: [1, 8, 11]
-},
-{
-    id: 3,
-    nombreJuego: 'The Legend of Zelda: Breath of the Wild',
-    descripcionJuego: 'Un juego de rol de acción en el que te aventuras por el reino de Hyrule.',
-    edadMinima: 13,
-    categoriaId: [2, 3, 10]
-},
-{
-    id: 4,
-    nombreJuego: 'Armored Core VI: Fires of Rubicon',
-    descripcionJuego: 'Un juego de acción y mechas en el que pilotas un robot gigante.',
-    edadMinima: 16,
-    categoriaId: [1, 2, 3, 8]
-},
-{
-    id: 5,
-    nombreJuego: 'Hollow Knight',
-    descripcionJuego: 'Un juego de acción y aventuras en un mundo subterráneo lleno de insectos y criaturas.',
-    edadMinima: 15,
-    categoriaId: [2, 3, 9]
-},
-{
-    id: 6,
-    nombreJuego: 'FIFA 23',
-    descripcionJuego: 'Un juego de simulación de fútbol con gráficos realistas y modos de juego variados.',
-    edadMinima: 10,
-    categoriaId: [6]
-},
-{
-    id: 7,
-    nombreJuego: 'Disco Elysium',
-    descripcionJuego: 'Un juego de rol en el que interpretas a un detective con problemas de memoria y adicciones.',
-    edadMinima: 18,
-    categoriaId: [2, 3, 9]
-},
-{
-    id: 8,
-    nombreJuego: 'Baldur\'s Gate 3',
-    descripcionJuego: 'Un juego de rol basado en el universo de Dungeons & Dragons.',
-    edadMinima: 16,
-    categoriaId: [2, 3, 9]
-},
-{
-    id: 9,
-    nombreJuego: 'Terraria',
-    descripcionJuego: 'Un juego de aventuras y construcción en un mundo 2D generado aleatoriamente.',
-    edadMinima: 10,
-    categoriaId: [2, 3, 8, 9, 10]
-},
-{
-    id: 10,
-    nombreJuego: 'Stardew Valley',
-    descripcionJuego: 'Un juego de simulación de granja y vida rural.',
-    edadMinima: 10,
-    categoriaId: [2, 3, 7, 9]
-},
-{
-    id: 11,
-    nombreJuego: 'Call of Duty: Modern Warfare II',
-    descripcionJuego: 'Un juego de disparos en primera persona con una campaña intensa y multijugador competitivo.',
-    edadMinima: 18,
-    categoriaId: [1, 8, 11]
-}];
+export const juegos = [
+  { nombreJuego: 'Dark Souls', descripcionJuego: 'Un juego de rol de acción desafiante y oscuro.', precioJuego: 1990, edadMinima: 16, categorias: ['Acción', 'Aventura', 'RPG'] },
+  { nombreJuego: 'Valorant', descripcionJuego: 'Un juego de disparos táctico en primera persona.', precioJuego: 100, edadMinima: 13, categorias: ['Acción', 'Multijugador', 'First Person Shooter'] },
+  { nombreJuego: 'The Legend of Zelda: Breath of the Wild', descripcionJuego: 'Un juego de rol de acción en el que te aventuras por el reino de Hyrule.', precioJuego: 2990, edadMinima: 13, categorias: ['Aventura', 'RPG', 'Puzzle'] },
+  { nombreJuego: 'Armored Core VI: Fires of Rubicon', descripcionJuego: 'Un juego de acción y mechas en el que pilotas un robot gigante.', precioJuego: 2490, edadMinima: 16, categorias: ['Acción', 'Aventura', 'RPG', 'Multijugador'] },
+  { nombreJuego: 'Hollow Knight', descripcionJuego: 'Un juego de acción y aventuras en un mundo subterráneo lleno de insectos y criaturas.', precioJuego: 990, edadMinima: 15, categorias: ['Aventura', 'RPG', 'Indie'] },
+  { nombreJuego: 'FIFA 23', descripcionJuego: 'Un juego de simulación de fútbol con gráficos realistas y modos de juego variados.', precioJuego: 3490, edadMinima: 10, categorias: ['Deportes'] },
+  { nombreJuego: 'Disco Elysium', descripcionJuego: 'Un juego de rol en el que interpretas a un detective con problemas de memoria y adicciones.', precioJuego: 1490, edadMinima: 18, categorias: ['Aventura', 'RPG', 'Indie'] },
+  { nombreJuego: 'Baldur\'s Gate 3', descripcionJuego: 'Un juego de rol basado en el universo de Dungeons & Dragons.', precioJuego: 2990, edadMinima: 16, categorias: ['Aventura', 'RPG', 'Indie'] },
+  { nombreJuego: 'Terraria', descripcionJuego: 'Un juego de aventuras y construcción en un mundo 2D generado aleatoriamente.', precioJuego: 590, edadMinima: 10, categorias: ['Aventura', 'RPG', 'Multijugador', 'Indie', 'Puzzle'] },
+  { nombreJuego: 'Stardew Valley', descripcionJuego: 'Un juego de simulación de granja y vida rural.', precioJuego: 590, edadMinima: 10, categorias: ['Aventura', 'RPG', 'Cozy', 'Indie'] },
+  { nombreJuego: 'Call of Duty: Modern Warfare II', descripcionJuego: 'Un juego de disparos en primera persona con una campaña intensa y multijugador competitivo.', precioJuego: 3990, edadMinima: 18, categorias: ['Acción', 'Multijugador', 'First Person Shooter'] },
+  { nombreJuego: 'Minecraft', descripcionJuego: 'Un juego de construcción y exploración en un mundo generado por bloques.', precioJuego: 1990, edadMinima: 7, categorias: ['Aventura', 'Multijugador', 'Cozy'] },
+  { nombreJuego: 'God of War Ragnarök', descripcionJuego: 'Un juego de acción y aventuras basado en la mitología nórdica.', precioJuego: 3990, edadMinima: 18, categorias: ['Acción', 'Aventura'] },
+  { nombreJuego: 'Elden Ring', descripcionJuego: 'Un juego de rol de acción en un vasto mundo abierto de fantasía oscura.', precioJuego: 3490, edadMinima: 16, categorias: ['Acción', 'Aventura', 'RPG'] },
+  { nombreJuego: 'Persona 5 Royal', descripcionJuego: 'Un juego de rol donde llevás una doble vida de estudiante y ladrón fantasma.', precioJuego: 2990, edadMinima: 16, categorias: ['Aventura', 'RPG'] },
+  { nombreJuego: 'Overwatch 2', descripcionJuego: 'Un juego de disparos por equipos con héroes de habilidades únicas.', precioJuego: 100, edadMinima: 13, categorias: ['Acción', 'Multijugador', 'First Person Shooter'] },
+  { nombreJuego: 'Counter-Strike 2', descripcionJuego: 'Un juego de disparos táctico competitivo por equipos.', precioJuego: 100, edadMinima: 16, categorias: ['Acción', 'Multijugador', 'First Person Shooter'] },
+  { nombreJuego: 'Apex Legends', descripcionJuego: 'Un juego de disparos battle royale con personajes de habilidades especiales.', precioJuego: 100, edadMinima: 16, categorias: ['Acción', 'Multijugador', 'First Person Shooter'] },
+  { nombreJuego: 'League of Legends', descripcionJuego: 'Un juego de estrategia por equipos con héroes y objetivos tácticos.', precioJuego: 100, edadMinima: 13, categorias: ['Estrategia', 'Multijugador'] },
+  { nombreJuego: 'Dota 2', descripcionJuego: 'Un juego de estrategia por equipos con héroes y batallas tácticas.', precioJuego: 100, edadMinima: 13, categorias: ['Estrategia', 'Multijugador'] },
+  { nombreJuego: 'Among Us', descripcionJuego: 'Un juego social donde hay que descubrir a los impostores de la nave.', precioJuego: 490, edadMinima: 7, categorias: ['Multijugador', 'Indie', 'Cozy'] },
+  { nombreJuego: 'Fall Guys', descripcionJuego: 'Un juego multijugador de minijuegos coloridos y caóticos.', precioJuego: 100, edadMinima: 7, categorias: ['Multijugador', 'Indie', 'Cozy'] },
+  { nombreJuego: 'Cuphead', descripcionJuego: 'Un juego de acción con un estilo visual de dibujos animados clásicos.', precioJuego: 990, edadMinima: 10, categorias: ['Acción', 'Indie'] },
+  { nombreJuego: 'Celeste', descripcionJuego: 'Un juego de plataformas desafiante sobre subir una montaña y superarse.', precioJuego: 890, edadMinima: 7, categorias: ['Aventura', 'Indie', 'Puzzle'] },
+  { nombreJuego: 'Portal 2', descripcionJuego: 'Un juego de rompecabezas en primera persona con un portal de teletransporte.', precioJuego: 990, edadMinima: 10, categorias: ['Puzzle', 'Aventura'] },
+  { nombreJuego: 'Resident Evil 4', descripcionJuego: 'Un juego de terror y acción donde rescatás a la hija del presidente.', precioJuego: 3490, edadMinima: 18, categorias: ['Terror', 'Acción'] },
+  { nombreJuego: 'Silent Hill 2', descripcionJuego: 'Un juego de terror psicológico ambientado en un pueblo cubierto de niebla.', precioJuego: 2990, edadMinima: 18, categorias: ['Terror'] },
+  { nombreJuego: 'Dead by Daylight', descripcionJuego: 'Un juego de terror multijugador asimétrico entre víctimas y un asesino.', precioJuego: 1490, edadMinima: 18, categorias: ['Terror', 'Multijugador'] },
+  { nombreJuego: 'Phasmophobia', descripcionJuego: 'Un juego de terror cooperativo sobre cazar fantasmas con equipo especializado.', precioJuego: 690, edadMinima: 16, categorias: ['Terror', 'Multijugador', 'Indie'] },
+  { nombreJuego: 'Outlast', descripcionJuego: 'Un juego de terror en primera persona dentro de un psiquiátrico abandonado.', precioJuego: 990, edadMinima: 18, categorias: ['Terror'] },
+  { nombreJuego: 'Civilization VI', descripcionJuego: 'Un juego de estrategia por turnos para construir un imperio a través de la historia.', precioJuego: 2490, edadMinima: 12, categorias: ['Estrategia'] },
+  { nombreJuego: 'Age of Empires IV', descripcionJuego: 'Un juego de estrategia en tiempo real sobre construir y liderar civilizaciones.', precioJuego: 2990, edadMinima: 12, categorias: ['Estrategia'] },
+  { nombreJuego: 'XCOM 2', descripcionJuego: 'Un juego de estrategia táctica por turnos contra una ocupación alienígena.', precioJuego: 1990, edadMinima: 16, categorias: ['Estrategia', 'RPG'] },
+  { nombreJuego: 'Total War: Warhammer III', descripcionJuego: 'Un juego de estrategia bélica con batallas masivas en tiempo real.', precioJuego: 3490, edadMinima: 16, categorias: ['Estrategia'] },
+  { nombreJuego: 'Slay the Spire', descripcionJuego: 'Un juego de cartas y estrategia donde subís una torre enfrentando enemigos.', precioJuego: 790, edadMinima: 12, categorias: ['Estrategia', 'Indie', 'Puzzle'] },
+  { nombreJuego: 'Animal Crossing: New Horizons', descripcionJuego: 'Un juego de simulación de vida en una isla que podés decorar a tu gusto.', precioJuego: 2990, edadMinima: 3, categorias: ['Cozy', 'Aventura'] },
+  { nombreJuego: 'Spiritfarer', descripcionJuego: 'Un juego de gestión y aventuras sobre acompañar espíritus hacia el más allá.', precioJuego: 1490, edadMinima: 10, categorias: ['Cozy', 'Aventura', 'Indie'] },
+  { nombreJuego: 'Unpacking', descripcionJuego: 'Un juego relajante sobre desempacar cajas y armar hogares a lo largo de los años.', precioJuego: 890, edadMinima: 7, categorias: ['Cozy', 'Puzzle', 'Indie'] },
+  { nombreJuego: 'A Short Hike', descripcionJuego: 'Un juego relajante sobre explorar una montaña y subir a la cima.', precioJuego: 490, edadMinima: 7, categorias: ['Cozy', 'Aventura', 'Indie'] },
+  { nombreJuego: 'Rocket League', descripcionJuego: 'Un juego deportivo que mezcla fútbol con autos acrobáticos.', precioJuego: 990, edadMinima: 7, categorias: ['Deportes', 'Multijugador'] },
+  { nombreJuego: 'NBA 2K24', descripcionJuego: 'Un juego de simulación de básquetbol con equipos y jugadores reales.', precioJuego: 3490, edadMinima: 10, categorias: ['Deportes'] },
+  { nombreJuego: 'Tony Hawk\'s Pro Skater 1+2', descripcionJuego: 'Un juego de skate con trucos acrobáticos y niveles icónicos.', precioJuego: 1990, edadMinima: 10, categorias: ['Deportes'] },
+  { nombreJuego: 'Mario Kart 8 Deluxe', descripcionJuego: 'Un juego de carreras arcade con personajes y power-ups de Nintendo.', precioJuego: 2490, edadMinima: 3, categorias: ['Deportes', 'Multijugador', 'Cozy'] },
+  { nombreJuego: 'Tetris Effect', descripcionJuego: 'Un juego de bloques clásico con una presentación visual y sonora envolvente.', precioJuego: 990, edadMinima: 3, categorias: ['Puzzle'] },
+  { nombreJuego: 'The Witness', descripcionJuego: 'Un juego de rompecabezas en una isla llena de puzzles interconectados.', precioJuego: 990, edadMinima: 10, categorias: ['Puzzle', 'Aventura', 'Indie'] },
+  { nombreJuego: 'Return of the Obra Dinn', descripcionJuego: 'Un juego de misterio e investigación a bordo de un barco fantasma.', precioJuego: 990, edadMinima: 13, categorias: ['Puzzle', 'Aventura', 'Indie'] },
+  { nombreJuego: 'Death Stranding', descripcionJuego: 'Un juego de aventuras sobre reconectar una sociedad fragmentada haciendo entregas.', precioJuego: 2990, edadMinima: 18, categorias: ['Aventura', 'Acción'] },
+  { nombreJuego: 'Sekiro: Shadows Die Twice', descripcionJuego: 'Un juego de acción y espadas ambientado en el Japón feudal.', precioJuego: 2990, edadMinima: 16, categorias: ['Acción', 'RPG'] },
+  { nombreJuego: 'Monster Hunter: World', descripcionJuego: 'Un juego de acción y rol sobre cazar criaturas gigantes en equipo.', precioJuego: 1990, edadMinima: 16, categorias: ['Acción', 'RPG', 'Multijugador'] },
+  { nombreJuego: 'It Takes Two', descripcionJuego: 'Un juego cooperativo de aventuras sobre una pareja convertida en muñecos.', precioJuego: 1990, edadMinima: 10, categorias: ['Aventura', 'Multijugador', 'Cozy'] }
+];

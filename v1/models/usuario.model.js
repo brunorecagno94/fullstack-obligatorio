@@ -37,6 +37,11 @@ const usuarioSchema = new mongoose.Schema({
 		type: String,
 		enum: ["plus", "premium"]
 	},
+	juegosComprados: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Juego",
+    required: true,
+  }],
 	active: {
 		type: Boolean,
 		default: true
