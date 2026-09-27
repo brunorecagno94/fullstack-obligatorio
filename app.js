@@ -2,17 +2,19 @@ import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
 import connectDB from "./v1/config/db.config.js";
+import { configurarCloudinary } from "./v1/config/cloudinary.js";
 import routes from "./v1/v1.routes.js";
 import notFoundMiddleware from "./v1/middlewares/notFound.middleware.js";
 import errorMiddleware from "./v1/middlewares/error.middleware.js";
 
 dotenv.config();
 connectDB();
+configurarCloudinary();
 const app = express();
 app.use(cors({
-	origin: "http://localhost:3000",
-	allowedHeaders: ["Content-Type", "Authorization"],
-	methods: ["GET", "POST", "PUT", "PATCH", "DELETE"]
+  origin: "http://localhost:3000",
+  allowedHeaders: ["Content-Type", "Authorization"],
+  methods: ["GET", "POST", "PUT", "PATCH", "DELETE"]
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));

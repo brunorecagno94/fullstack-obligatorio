@@ -1,32 +1,44 @@
 import {
-    crearJuegoService,
-    obtenerJuegosService,
-    obtenerJuegoPorIdService,
-    actualizarJuegoService,
-    eliminarJuegoService
+  crearJuegoService,
+  obtenerJuegosService,
+  obtenerJuegoPorIdService,
+  actualizarJuegoService,
+  eliminarJuegoService,
+  obtenerDescripcionIAService,
+  obtenerPrecioConvertidoService
 } from "../services/juegos.services.js";
 
 export const crearJuego = async (req, res) => {
-    const nuevoJuego = await crearJuegoService(req.validatedBody);
-    res.status(201).json({ message: `Juego creado con éxito: ${nuevoJuego.nombreJuego}`, juego: nuevoJuego });
+  const nuevoJuego = await crearJuegoService(req.validatedBody);
+  res.status(201).json({ message: `Juego creado con éxito: ${nuevoJuego.nombreJuego}`, juego: nuevoJuego });
 }
 
 export const obtenerJuegos = async (req, res) => {
-    const juegos = await obtenerJuegosService(req.validatedQuery);
-    res.status(200).json(juegos);
+  const juegos = await obtenerJuegosService(req.validatedQuery);
+  res.status(200).json(juegos);
 }
 
 export const obtenerJuegoPorId = async (req, res) => {
-    const juego = await obtenerJuegoPorIdService(req.validatedParams.id);
-    res.status(200).json(juego);
+  const juego = await obtenerJuegoPorIdService(req.validatedParams.id);
+  res.status(200).json(juego);
 }
 
 export const actualizarJuego = async (req, res) => {
-    const juego = await actualizarJuegoService(req.validatedParams.id, req.validatedBody);
-    res.status(200).json({ message: "Juego actualizado correctamente", juego });
+  const juego = await actualizarJuegoService(req.validatedParams.id, req.validatedBody);
+  res.status(200).json({ message: "Juego actualizado correctamente", juego });
 }
 
 export const eliminarJuego = async (req, res) => {
-    const juego = await eliminarJuegoService(req.validatedParams.id);
-    res.status(200).json({ message: `Juego eliminado correctamente: ${juego.nombreJuego}` });
+  const juego = await eliminarJuegoService(req.validatedParams.id);
+  res.status(200).json({ message: `Juego eliminado correctamente: ${juego.nombreJuego}` });
+}
+
+export const obtenerDescripcionIA = async (req, res) => {
+  const resultado = await obtenerDescripcionIAService(req.validatedParams.id);
+  res.status(200).json(resultado);
+}
+
+export const obtenerPrecioConvertido = async (req, res) => {
+    const resultado = await obtenerPrecioConvertidoService(req.validatedParams.id, req.validatedQuery.moneda);
+    res.status(200).json(resultado);
 }

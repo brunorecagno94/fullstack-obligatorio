@@ -1,6 +1,7 @@
 import Juego from "../models/juego.model.js";
 import Categoria from "../models/categoria.model.js";
 import throwError from "../utils/throwError.utils.js";
+import obtenerConsultaGroqService from "../services/groq.service.js";
 
 export const crearJuegoService = async (juegoData) => {
   const categoriasValidas = await Categoria.find({ _id: { $in: juegoData.categorias }, active: true });
@@ -20,6 +21,7 @@ export const crearJuegoService = async (juegoData) => {
   await juegoNuevo.save();
   return juegoNuevo;
 }
+
 export const obtenerJuegosService = async ({ nombre, categoria, precioMin, precioMax, limit, page } = {}) => {
   const filtro = { active: true };
   if (nombre) filtro.nombreJuego = { $regex: nombre, $options: "i" };
@@ -77,3 +79,41 @@ export const eliminarJuegoService = async (id) => {
   await juego.save();
   return juego;
 }
+
+export const obtenerDescripcionIAService = async (id) => {
+  const juego = await obtenerJuegoPorIdService(id);
+
+  try {
+    const prompt = `¿Podrías contarme más sobre el juego "${juego.nombreJuego}"?.`;
+    const chatCompletion = await obtenerConsultaGroqService(prompt);
+    const descripcionIA = chatCompletion?.choices?.[0]?.message?.content;
+
+    if (!descripcionIA) throwError("Respuesta vacía de Groq", 404);
+
+    return { descripcion: descripcionIA, generadoPorIA: true };
+  } catch (error) {
+    console.error("Error consultando a Groq:", error)
+    return { descripcion: juego.descripcionJuego, generadoPorIA: false };
+  }
+};
+
+export const obtenerPrecioConvertidoService = async (id, monedaDestino) => {
+  const juego = await obtenerJuegoPorIdService(id);
+  const monedaOrigen = juego.monedaJuego;
+
+  if (monedaOrigen === monedaDestino) throwError("La moneda destino no puede ser la misma que la actual", 400);
+
+  const response = await fetch(`https://api.frankfurter.dev/v2/rate/${monedaOrigen.toLowerCase()}/${monedaDestino.toLowerCase()}`);
+  if (!response.ok) throwError("No se pudo obtener la cotización de la moneda", 502);
+
+  const data = await response.json();
+
+  return {
+    nombreJuego: juego.nombreJuego,
+    precioOriginal: juego.precioJuego,
+    monedaOriginal: monedaOrigen,
+    monedaDestino: monedaDestino.toUpperCase(),
+    tasaCambio: data.rate,
+    precioConvertido: Number((juego.precioJuego * data.rate).toFixed(2)),
+  };
+};

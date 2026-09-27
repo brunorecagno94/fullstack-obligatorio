@@ -13,6 +13,6 @@ router.use(authenticateMiddleware);
 router.use('/usuarios', usuariosRouter);
 router.use('/categorias', categoriasRouter);
 router.use('/juegos', juegosRouter);
-router.use("/uploads", uploadsRouter);
+router.use('/uploads', uploadsRouter);
 
 export default router;

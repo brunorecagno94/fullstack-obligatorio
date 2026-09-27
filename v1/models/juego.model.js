@@ -14,6 +14,11 @@ const juegoSchema = new mongoose.Schema({
     type: Number,
     required: true,
   },
+  monedaJuego: {
+    type: String,
+    required: true,
+    default: "USD",
+  },
   edadMinima: {
     type: Number,
     required: true,
@@ -23,6 +28,9 @@ const juegoSchema = new mongoose.Schema({
     ref: "Categoria",
     required: true,
   }],
+  imagenJuego: {
+    type: String,
+  },
   active: {
     type: Boolean,
     default: true

@@ -15,6 +15,9 @@ export const crearJuegoSchema = Joi.object({
     'any.required': 'El precio del juego es obligatorio',
     'number.positive': 'El precio del juego debe ser un número positivo',
   }),
+  monedaJuego: Joi.string().length(3).uppercase().required().messages({
+    'string.length': 'La moneda debe ser un código de 3 letras (ej: UYU, USD, EUR)',
+  }),
   edadMinima: Joi.number().integer().min(0).max(18).required().messages({
     'any.required': 'La edad mínima es obligatoria',
     'number.integer': 'La edad mínima debe ser un número entero',
@@ -28,7 +31,10 @@ export const crearJuegoSchema = Joi.object({
   ).min(1).required().messages({
     'array.min': 'El juego debe tener al menos una categoría',
     'any.required': 'Las categorías son obligatorias',
-  })
+  }),
+  imagenJuego: Joi.string().uri().optional().messages({
+    'string.uri': 'La imagen debe ser una URL válida',
+  }),
 });
 
 export const editarJuegoSchema = Joi.object({
@@ -43,6 +49,9 @@ export const editarJuegoSchema = Joi.object({
   precioJuego: Joi.number().positive().messages({
     'number.positive': 'El precio del juego debe ser un número positivo',
   }),
+  monedaJuego: Joi.string().length(3).uppercase().optional().messages({
+    'string.length': 'La moneda debe ser un código de 3 letras (ej: UYU, USD, EUR)',
+  }),
   edadMinima: Joi.number().integer().min(0).max(18).messages({
     'number.integer': 'La edad mínima debe ser un número entero',
     'number.max': 'La edad mínima no puede ser mayor a 18',
@@ -54,7 +63,10 @@ export const editarJuegoSchema = Joi.object({
     })
   ).min(1).messages({
     'array.min': 'El juego debe tener al menos una categoría',
-  })
+  }),
+  imagenJuego: Joi.string().uri().optional().messages({
+    'string.uri': 'La imagen debe ser una URL válida',
+  }),
 }).min(1).messages({
   'object.min': 'Se debe enviar al menos un campo para actualizar',
 });
@@ -95,5 +107,12 @@ export const obtenerJuegosQuerySchema = Joi.object({
     'number.integer': 'El límite debe ser un número entero',
     'number.min': 'El límite debe ser mayor o igual a {#limit}',
     'number.max': 'El límite no puede ser mayor a {#limit}',
+  }),
+});
+
+export const obtenerPrecioConvertidoQuerySchema = Joi.object({
+  moneda: Joi.string().length(3).uppercase().required().messages({
+    'string.length': 'La moneda debe ser un código de 3 letras (ej: UYU, USD, EUR)',
+    'any.required': 'Debe indicar la moneda a la que desea convertir el precio',
   }),
 });

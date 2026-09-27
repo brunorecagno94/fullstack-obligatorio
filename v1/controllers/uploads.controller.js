@@ -11,7 +11,7 @@ export const subirImagen = async (req, res) => {
             return res.status(400).json({ error: "No se subió ningún archivo" });
         }
 
-        const folder = req.body?.folder || "uploads";
+        const folder = req.body?.folder || "assets";
 
         const result = await uploadBufferToCloudinary(cloudinary, req.file.buffer, {
             resource_type: "auto",

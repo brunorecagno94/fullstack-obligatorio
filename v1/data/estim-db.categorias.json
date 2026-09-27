@@ -1,0 +1,296 @@
+[{
+  "_id": {
+    "$oid": "6ab03eac5ca0e65aeaa44677"
+  },
+  "nombreCategoria": "Aventura",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab03eb05ca0e65aeaa44678"
+  },
+  "nombreCategoria": "RPG",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab03eba5ca0e65aeaa44679"
+  },
+  "nombreCategoria": "Terror",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab03ed25ca0e65aeaa4467a"
+  },
+  "nombreCategoria": "Cozy",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab03ed55ca0e65aeaa4467b"
+  },
+  "nombreCategoria": "Multijugador",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab03ed95ca0e65aeaa4467c"
+  },
+  "nombreCategoria": "Indie",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab03edd5ca0e65aeaa4467d"
+  },
+  "nombreCategoria": "Puzzle",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab03ee25ca0e65aeaa4467e"
+  },
+  "nombreCategoria": "First Person Shooter",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab04482f93e76201ce956f5"
+  },
+  "nombreCategoria": "Acción",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab049bc84e1441457a6d881"
+  },
+  "nombreCategoria": "NombreNuevoCategoria",
+  "active": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab04a1984e1441457a6d883"
+  },
+  "nombreCategoria": "CategoriaTest-1789938108940",
+  "active": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab04ad284e1441457a6d884"
+  },
+  "nombreCategoria": "CategoriaTest-1789938298428",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab04ae184e1441457a6d886"
+  },
+  "nombreCategoria": "CategoriaTest-1789938390222",
+  "active": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab04b5984e1441457a6d888"
+  },
+  "nombreCategoria": "CategoriaTest-1789938402013",
+  "active": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab04b9348b23dd4e13ac9b1"
+  },
+  "nombreCategoria": "CategoriaTest-1789938522139",
+  "active": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab04cdf48b23dd4e13ac9b2"
+  },
+  "nombreCategoria": "CategoriaTest-1789938579695",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab04e1948b23dd4e13ac9b4"
+  },
+  "nombreCategoria": "CategoriaTest-1789938579978",
+  "active": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab04ef848b23dd4e13ac9b6"
+  },
+  "nombreCategoria": "CategoriaTest-1789939226433",
+  "active": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab04f2e48b23dd4e13ac9b7"
+  },
+  "nombreCategoria": "CategoriaTest-1789939448770",
+  "active": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab051ec1d8687aa25af4e8d"
+  },
+  "nombreCategoria": "CategoriaTest-1789939502708",
+  "active": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab052451d8687aa25af4e91"
+  },
+  "nombreCategoria": "CategoriaTest-1789940205248",
+  "active": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab052e61d8687aa25af4e95"
+  },
+  "nombreCategoria": "CategoriaTest-1789940293611",
+  "active": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab053551d8687aa25af4e97"
+  },
+  "nombreCategoria": "CategoriaTest-1789940454691",
+  "active": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab84fc52ea3d4a0027f1bb4"
+  },
+  "nombreCategoria": "CategoriaTest-1789940566170",
+  "active": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab855ca38261f1dea5569fc"
+  },
+  "nombreCategoria": "CategoriaTest-1790463942494",
+  "active": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab85c3c5b8de6e7438b8925"
+  },
+  "nombreCategoria": "CategoriaTest-1790465483190",
+  "active": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab957ffc42126fe6b2102de"
+  },
+  "nombreCategoria": "CategoriaTest-1790467133321",
+  "active": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab958c7c42126fe6b2102e2"
+  },
+  "nombreCategoria": "CategoriaTest-1790531584332",
+  "active": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab95e57c0dbef3eba219450"
+  },
+  "nombreCategoria": "CategoriaTest-1790531784676",
+  "active": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab97ac62f9c0dd031221115"
+  },
+  "nombreCategoria": "CategoriaTest-1790533207694",
+  "active": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab9800a13a5a89e7295c251"
+  },
+  "nombreCategoria": "CategoriaTest-1790540487009",
+  "active": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab981bf13a5a89e7295c255"
+  },
+  "nombreCategoria": "CategoriaTest-1790541834975",
+  "active": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab9836713a5a89e7295c259"
+  },
+  "nombreCategoria": "CategoriaTest-1790542272000",
+  "active": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab98d009ca472cd2b71ea67"
+  },
+  "nombreCategoria": "CategoriaTest-1790542695678",
+  "active": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab997ae7ca96b28d08e553d"
+  },
+  "nombreCategoria": "CategoriaTest-1790545153330",
+  "active": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab998157ca96b28d08e5541"
+  },
+  "nombreCategoria": "CategoriaTest-1790547887455",
+  "active": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab9a086e74b6748f752933b"
+  },
+  "nombreCategoria": "CategoriaTest-1790547990126",
+  "active": false,
+  "__v": 0
+}]
