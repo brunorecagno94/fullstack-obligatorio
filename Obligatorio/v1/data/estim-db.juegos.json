@@ -1,0 +1,1044 @@
+[{
+  "_id": {
+    "$oid": "6ab84f1cbc25d42b12df1fc5"
+  },
+  "nombreJuego": "Dark Souls",
+  "descripcionJuego": "Un juego de rol de acción desafiante y oscuro.",
+  "precioJuego": 1990,
+  "edadMinima": 16,
+  "categorias": [
+    {
+      "$oid": "6ab04482f93e76201ce956f5"
+    },
+    {
+      "$oid": "6ab03eac5ca0e65aeaa44677"
+    },
+    {
+      "$oid": "6ab03eb05ca0e65aeaa44678"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/dark-souls.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1cbc25d42b12df1fc6"
+  },
+  "nombreJuego": "Valorant",
+  "descripcionJuego": "Un juego de disparos táctico en primera persona.",
+  "precioJuego": 100,
+  "edadMinima": 13,
+  "categorias": [
+    {
+      "$oid": "6ab04482f93e76201ce956f5"
+    },
+    {
+      "$oid": "6ab03ed55ca0e65aeaa4467b"
+    },
+    {
+      "$oid": "6ab03ee25ca0e65aeaa4467e"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/valorant.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fc7"
+  },
+  "nombreJuego": "The Legend of Zelda: Breath of the Wild",
+  "descripcionJuego": "Un juego de rol de acción en el que te aventuras por el reino de Hyrule.",
+  "precioJuego": 2990,
+  "edadMinima": 13,
+  "categorias": [
+    {
+      "$oid": "6ab03eac5ca0e65aeaa44677"
+    },
+    {
+      "$oid": "6ab03eb05ca0e65aeaa44678"
+    },
+    {
+      "$oid": "6ab03edd5ca0e65aeaa4467d"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/zelda.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fc8"
+  },
+  "nombreJuego": "Armored Core VI: Fires of Rubicon",
+  "descripcionJuego": "Un juego de acción y mechas en el que pilotas un robot gigante.",
+  "precioJuego": 2490,
+  "edadMinima": 16,
+  "categorias": [
+    {
+      "$oid": "6ab04482f93e76201ce956f5"
+    },
+    {
+      "$oid": "6ab03eac5ca0e65aeaa44677"
+    },
+    {
+      "$oid": "6ab03eb05ca0e65aeaa44678"
+    },
+    {
+      "$oid": "6ab03ed55ca0e65aeaa4467b"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/armored-core.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fc9"
+  },
+  "nombreJuego": "Hollow Knight",
+  "descripcionJuego": "Un juego de acción y aventuras en un mundo subterráneo lleno de insectos y criaturas.",
+  "precioJuego": 990,
+  "edadMinima": 15,
+  "categorias": [
+    {
+      "$oid": "6ab03eac5ca0e65aeaa44677"
+    },
+    {
+      "$oid": "6ab03eb05ca0e65aeaa44678"
+    },
+    {
+      "$oid": "6ab03ed95ca0e65aeaa4467c"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/hollow-knight.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fca"
+  },
+  "nombreJuego": "FIFA 23",
+  "descripcionJuego": "Un juego de simulación de fútbol con gráficos realistas y modos de juego variados.",
+  "precioJuego": 3490,
+  "edadMinima": 10,
+  "categorias": [
+    null
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/fifa-23.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fcb"
+  },
+  "nombreJuego": "Disco Elysium",
+  "descripcionJuego": "Un juego de rol en el que interpretas a un detective con problemas de memoria y adicciones.",
+  "precioJuego": 1490,
+  "edadMinima": 18,
+  "categorias": [
+    {
+      "$oid": "6ab03eac5ca0e65aeaa44677"
+    },
+    {
+      "$oid": "6ab03eb05ca0e65aeaa44678"
+    },
+    {
+      "$oid": "6ab03ed95ca0e65aeaa4467c"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/disco-elysiumjpg.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fcc"
+  },
+  "nombreJuego": "Baldur\"s Gate 3",
+  "descripcionJuego": "Un juego de rol basado en el universo de Dungeons & Dragons.",
+  "precioJuego": 2990,
+  "edadMinima": 16,
+  "categorias": [
+    {
+      "$oid": "6ab03eac5ca0e65aeaa44677"
+    },
+    {
+      "$oid": "6ab03eb05ca0e65aeaa44678"
+    },
+    {
+      "$oid": "6ab03ed95ca0e65aeaa4467c"
+    }
+  ],
+  "active": true,
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fcd"
+  },
+  "nombreJuego": "Terraria",
+  "descripcionJuego": "Un juego de aventuras y construcción en un mundo 2D generado aleatoriamente.",
+  "precioJuego": 590,
+  "edadMinima": 10,
+  "categorias": [
+    {
+      "$oid": "6ab03eac5ca0e65aeaa44677"
+    },
+    {
+      "$oid": "6ab03eb05ca0e65aeaa44678"
+    },
+    {
+      "$oid": "6ab03ed55ca0e65aeaa4467b"
+    },
+    {
+      "$oid": "6ab03ed95ca0e65aeaa4467c"
+    },
+    {
+      "$oid": "6ab03edd5ca0e65aeaa4467d"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/terraria.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fce"
+  },
+  "nombreJuego": "Stardew Valley",
+  "descripcionJuego": "Un juego de simulación de granja y vida rural.",
+  "precioJuego": 590,
+  "edadMinima": 10,
+  "categorias": [
+    {
+      "$oid": "6ab03eac5ca0e65aeaa44677"
+    },
+    {
+      "$oid": "6ab03eb05ca0e65aeaa44678"
+    },
+    {
+      "$oid": "6ab03ed25ca0e65aeaa4467a"
+    },
+    {
+      "$oid": "6ab03ed95ca0e65aeaa4467c"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/stardew-valley.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fcf"
+  },
+  "nombreJuego": "Call of Duty: Modern Warfare II",
+  "descripcionJuego": "Un juego de disparos en primera persona con una campaña intensa y multijugador competitivo.",
+  "precioJuego": 3990,
+  "edadMinima": 18,
+  "categorias": [
+    {
+      "$oid": "6ab04482f93e76201ce956f5"
+    },
+    {
+      "$oid": "6ab03ed55ca0e65aeaa4467b"
+    },
+    {
+      "$oid": "6ab03ee25ca0e65aeaa4467e"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/cod-mw2.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fd0"
+  },
+  "nombreJuego": "Minecraft",
+  "descripcionJuego": "Un juego de construcción y exploración en un mundo generado por bloques.",
+  "precioJuego": 1990,
+  "edadMinima": 7,
+  "categorias": [
+    {
+      "$oid": "6ab03eac5ca0e65aeaa44677"
+    },
+    {
+      "$oid": "6ab03ed55ca0e65aeaa4467b"
+    },
+    {
+      "$oid": "6ab03ed25ca0e65aeaa4467a"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/minecraft.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fd1"
+  },
+  "nombreJuego": "God of War Ragnarök",
+  "descripcionJuego": "Un juego de acción y aventuras basado en la mitología nórdica.",
+  "precioJuego": 3990,
+  "edadMinima": 18,
+  "categorias": [
+    {
+      "$oid": "6ab04482f93e76201ce956f5"
+    },
+    {
+      "$oid": "6ab03eac5ca0e65aeaa44677"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/gow-ragnarok.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fd2"
+  },
+  "nombreJuego": "Elden Ring",
+  "descripcionJuego": "Un juego de rol de acción en un vasto mundo abierto de fantasía oscura.",
+  "precioJuego": 3490,
+  "edadMinima": 16,
+  "categorias": [
+    {
+      "$oid": "6ab04482f93e76201ce956f5"
+    },
+    {
+      "$oid": "6ab03eac5ca0e65aeaa44677"
+    },
+    {
+      "$oid": "6ab03eb05ca0e65aeaa44678"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/elden-ring.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fd3"
+  },
+  "nombreJuego": "Persona 5 Royal",
+  "descripcionJuego": "Un juego de rol donde llevás una doble vida de estudiante y ladrón fantasma.",
+  "precioJuego": 2990,
+  "edadMinima": 16,
+  "categorias": [
+    {
+      "$oid": "6ab03eac5ca0e65aeaa44677"
+    },
+    {
+      "$oid": "6ab03eb05ca0e65aeaa44678"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/persona-5.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fd4"
+  },
+  "nombreJuego": "Overwatch 2",
+  "descripcionJuego": "Un juego de disparos por equipos con héroes de habilidades únicas.",
+  "precioJuego": 100,
+  "edadMinima": 13,
+  "categorias": [
+    {
+      "$oid": "6ab04482f93e76201ce956f5"
+    },
+    {
+      "$oid": "6ab03ed55ca0e65aeaa4467b"
+    },
+    {
+      "$oid": "6ab03ee25ca0e65aeaa4467e"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/overwatch.png",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fd5"
+  },
+  "nombreJuego": "Counter-Strike 2",
+  "descripcionJuego": "Un juego de disparos táctico competitivo por equipos.",
+  "precioJuego": 100,
+  "edadMinima": 16,
+  "categorias": [
+    {
+      "$oid": "6ab04482f93e76201ce956f5"
+    },
+    {
+      "$oid": "6ab03ed55ca0e65aeaa4467b"
+    },
+    {
+      "$oid": "6ab03ee25ca0e65aeaa4467e"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/counter-strike-2.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fd6"
+  },
+  "nombreJuego": "Apex Legends",
+  "descripcionJuego": "Un juego de disparos battle royale con personajes de habilidades especiales.",
+  "precioJuego": 100,
+  "edadMinima": 16,
+  "categorias": [
+    {
+      "$oid": "6ab04482f93e76201ce956f5"
+    },
+    {
+      "$oid": "6ab03ed55ca0e65aeaa4467b"
+    },
+    {
+      "$oid": "6ab03ee25ca0e65aeaa4467e"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/apex-legends.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fd7"
+  },
+  "nombreJuego": "League of Legends",
+  "descripcionJuego": "Un juego de estrategia por equipos con héroes y objetivos tácticos.",
+  "precioJuego": 100,
+  "edadMinima": 13,
+  "categorias": [
+    null,
+    {
+      "$oid": "6ab03ed55ca0e65aeaa4467b"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/lol.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fd8"
+  },
+  "nombreJuego": "Dota 2",
+  "descripcionJuego": "Un juego de estrategia por equipos con héroes y batallas tácticas.",
+  "precioJuego": 100,
+  "edadMinima": 13,
+  "categorias": [
+    null,
+    {
+      "$oid": "6ab03ed55ca0e65aeaa4467b"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/dota-2.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fd9"
+  },
+  "nombreJuego": "Among Us",
+  "descripcionJuego": "Un juego social donde hay que descubrir a los impostores de la nave.",
+  "precioJuego": 490,
+  "edadMinima": 7,
+  "categorias": [
+    {
+      "$oid": "6ab03ed55ca0e65aeaa4467b"
+    },
+    {
+      "$oid": "6ab03ed95ca0e65aeaa4467c"
+    },
+    {
+      "$oid": "6ab03ed25ca0e65aeaa4467a"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/among-us.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fda"
+  },
+  "nombreJuego": "Fall Guys",
+  "descripcionJuego": "Un juego multijugador de minijuegos coloridos y caóticos.",
+  "precioJuego": 100,
+  "edadMinima": 7,
+  "categorias": [
+    {
+      "$oid": "6ab03ed55ca0e65aeaa4467b"
+    },
+    {
+      "$oid": "6ab03ed95ca0e65aeaa4467c"
+    },
+    {
+      "$oid": "6ab03ed25ca0e65aeaa4467a"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/fall-guys.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fdb"
+  },
+  "nombreJuego": "Cuphead",
+  "descripcionJuego": "Un juego de acción con un estilo visual de dibujos animados clásicos.",
+  "precioJuego": 990,
+  "edadMinima": 10,
+  "categorias": [
+    {
+      "$oid": "6ab04482f93e76201ce956f5"
+    },
+    {
+      "$oid": "6ab03ed95ca0e65aeaa4467c"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/cuphead.png",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fdc"
+  },
+  "nombreJuego": "Celeste",
+  "descripcionJuego": "Un juego de plataformas desafiante sobre subir una montaña y superarse.",
+  "precioJuego": 890,
+  "edadMinima": 7,
+  "categorias": [
+    {
+      "$oid": "6ab03eac5ca0e65aeaa44677"
+    },
+    {
+      "$oid": "6ab03ed95ca0e65aeaa4467c"
+    },
+    {
+      "$oid": "6ab03edd5ca0e65aeaa4467d"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/celeste.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fdd"
+  },
+  "nombreJuego": "Portal 2",
+  "descripcionJuego": "Un juego de rompecabezas en primera persona con un portal de teletransporte.",
+  "precioJuego": 990,
+  "edadMinima": 10,
+  "categorias": [
+    {
+      "$oid": "6ab03edd5ca0e65aeaa4467d"
+    },
+    {
+      "$oid": "6ab03eac5ca0e65aeaa44677"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/portal-2.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fde"
+  },
+  "nombreJuego": "Resident Evil 4",
+  "descripcionJuego": "Un juego de terror y acción donde rescatás a la hija del presidente.",
+  "precioJuego": 3490,
+  "edadMinima": 18,
+  "categorias": [
+    {
+      "$oid": "6ab03eba5ca0e65aeaa44679"
+    },
+    {
+      "$oid": "6ab04482f93e76201ce956f5"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/resident-evil-4.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fdf"
+  },
+  "nombreJuego": "Silent Hill 2",
+  "descripcionJuego": "Un juego de terror psicológico ambientado en un pueblo cubierto de niebla.",
+  "precioJuego": 2990,
+  "edadMinima": 18,
+  "categorias": [
+    {
+      "$oid": "6ab03eba5ca0e65aeaa44679"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/silent-hill-2.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fe0"
+  },
+  "nombreJuego": "Dead by Daylight",
+  "descripcionJuego": "Un juego de terror multijugador asimétrico entre víctimas y un asesino.",
+  "precioJuego": 1490,
+  "edadMinima": 18,
+  "categorias": [
+    {
+      "$oid": "6ab03eba5ca0e65aeaa44679"
+    },
+    {
+      "$oid": "6ab03ed55ca0e65aeaa4467b"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/dead-by-daylight.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fe1"
+  },
+  "nombreJuego": "Phasmophobia",
+  "descripcionJuego": "Un juego de terror cooperativo sobre cazar fantasmas con equipo especializado.",
+  "precioJuego": 690,
+  "edadMinima": 16,
+  "categorias": [
+    {
+      "$oid": "6ab03eba5ca0e65aeaa44679"
+    },
+    {
+      "$oid": "6ab03ed55ca0e65aeaa4467b"
+    },
+    {
+      "$oid": "6ab03ed95ca0e65aeaa4467c"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/phasmophobia.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fe2"
+  },
+  "nombreJuego": "Outlast",
+  "descripcionJuego": "Un juego de terror en primera persona dentro de un psiquiátrico abandonado.",
+  "precioJuego": 990,
+  "edadMinima": 18,
+  "categorias": [
+    {
+      "$oid": "6ab03eba5ca0e65aeaa44679"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/outlast.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fe3"
+  },
+  "nombreJuego": "Civilization VI",
+  "descripcionJuego": "Un juego de estrategia por turnos para construir un imperio a través de la historia.",
+  "precioJuego": 2490,
+  "edadMinima": 12,
+  "categorias": [
+    null
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/civilization-6.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fe4"
+  },
+  "nombreJuego": "Age of Empires IV",
+  "descripcionJuego": "Un juego de estrategia en tiempo real sobre construir y liderar civilizaciones.",
+  "precioJuego": 2990,
+  "edadMinima": 12,
+  "categorias": [
+    null
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/age-of-empires-4.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fe5"
+  },
+  "nombreJuego": "XCOM 2",
+  "descripcionJuego": "Un juego de estrategia táctica por turnos contra una ocupación alienígena.",
+  "precioJuego": 1990,
+  "edadMinima": 16,
+  "categorias": [
+    null,
+    {
+      "$oid": "6ab03eb05ca0e65aeaa44678"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/xcom-2.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fe6"
+  },
+  "nombreJuego": "Total War: Warhammer III",
+  "descripcionJuego": "Un juego de estrategia bélica con batallas masivas en tiempo real.",
+  "precioJuego": 3490,
+  "edadMinima": 16,
+  "categorias": [
+    null
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/warhammer-3.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fe7"
+  },
+  "nombreJuego": "Slay the Spire",
+  "descripcionJuego": "Un juego de cartas y estrategia donde subís una torre enfrentando enemigos.",
+  "precioJuego": 790,
+  "edadMinima": 12,
+  "categorias": [
+    null,
+    {
+      "$oid": "6ab03ed95ca0e65aeaa4467c"
+    },
+    {
+      "$oid": "6ab03edd5ca0e65aeaa4467d"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/slay-the-spire.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fe8"
+  },
+  "nombreJuego": "Animal Crossing: New Horizons",
+  "descripcionJuego": "Un juego de simulación de vida en una isla que podés decorar a tu gusto.",
+  "precioJuego": 2990,
+  "edadMinima": 3,
+  "categorias": [
+    {
+      "$oid": "6ab03ed25ca0e65aeaa4467a"
+    },
+    {
+      "$oid": "6ab03eac5ca0e65aeaa44677"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/animal-crossing.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fe9"
+  },
+  "nombreJuego": "Spiritfarer",
+  "descripcionJuego": "Un juego de gestión y aventuras sobre acompañar espíritus hacia el más allá.",
+  "precioJuego": 1490,
+  "edadMinima": 10,
+  "categorias": [
+    {
+      "$oid": "6ab03ed25ca0e65aeaa4467a"
+    },
+    {
+      "$oid": "6ab03eac5ca0e65aeaa44677"
+    },
+    {
+      "$oid": "6ab03ed95ca0e65aeaa4467c"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/spiritfarer.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fea"
+  },
+  "nombreJuego": "Unpacking",
+  "descripcionJuego": "Un juego relajante sobre desempacar cajas y armar hogares a lo largo de los años.",
+  "precioJuego": 890,
+  "edadMinima": 7,
+  "categorias": [
+    {
+      "$oid": "6ab03ed25ca0e65aeaa4467a"
+    },
+    {
+      "$oid": "6ab03edd5ca0e65aeaa4467d"
+    },
+    {
+      "$oid": "6ab03ed95ca0e65aeaa4467c"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/unpacking.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1feb"
+  },
+  "nombreJuego": "A Short Hike",
+  "descripcionJuego": "Un juego relajante sobre explorar una montaña y subir a la cima.",
+  "precioJuego": 490,
+  "edadMinima": 7,
+  "categorias": [
+    {
+      "$oid": "6ab03ed25ca0e65aeaa4467a"
+    },
+    {
+      "$oid": "6ab03eac5ca0e65aeaa44677"
+    },
+    {
+      "$oid": "6ab03ed95ca0e65aeaa4467c"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/a-short-hike.png",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fec"
+  },
+  "nombreJuego": "Rocket League",
+  "descripcionJuego": "Un juego deportivo que mezcla fútbol con autos acrobáticos.",
+  "precioJuego": 990,
+  "edadMinima": 7,
+  "categorias": [
+    null,
+    {
+      "$oid": "6ab03ed55ca0e65aeaa4467b"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/rocket-league.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fed"
+  },
+  "nombreJuego": "NBA 2K24",
+  "descripcionJuego": "Un juego de simulación de básquetbol con equipos y jugadores reales.",
+  "precioJuego": 3490,
+  "edadMinima": 10,
+  "categorias": [
+    null
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/nba-2k24.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fee"
+  },
+  "nombreJuego": "Tony Hawk's Pro Skater 1+2",
+  "descripcionJuego": "Un juego de skate con trucos acrobáticos y niveles icónicos.",
+  "precioJuego": 1990,
+  "edadMinima": 10,
+  "categorias": [
+    null
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/tony-hawk.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1fef"
+  },
+  "nombreJuego": "Mario Kart 8 Deluxe",
+  "descripcionJuego": "Un juego de carreras arcade con personajes y power-ups de Nintendo.",
+  "precioJuego": 2490,
+  "edadMinima": 3,
+  "categorias": [
+    null,
+    {
+      "$oid": "6ab03ed55ca0e65aeaa4467b"
+    },
+    {
+      "$oid": "6ab03ed25ca0e65aeaa4467a"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/mario-kart-8.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1ff0"
+  },
+  "nombreJuego": "Tetris Effect",
+  "descripcionJuego": "Un juego de bloques clásico con una presentación visual y sonora envolvente.",
+  "precioJuego": 990,
+  "edadMinima": 3,
+  "categorias": [
+    {
+      "$oid": "6ab03edd5ca0e65aeaa4467d"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/tetris.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1ff1"
+  },
+  "nombreJuego": "The Witness",
+  "descripcionJuego": "Un juego de rompecabezas en una isla llena de puzzles interconectados.",
+  "precioJuego": 990,
+  "edadMinima": 10,
+  "categorias": [
+    {
+      "$oid": "6ab03edd5ca0e65aeaa4467d"
+    },
+    {
+      "$oid": "6ab03eac5ca0e65aeaa44677"
+    },
+    {
+      "$oid": "6ab03ed95ca0e65aeaa4467c"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/the-witness.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1ff2"
+  },
+  "nombreJuego": "Return of the Obra Dinn",
+  "descripcionJuego": "Un juego de misterio e investigación a bordo de un barco fantasma.",
+  "precioJuego": 990,
+  "edadMinima": 13,
+  "categorias": [
+    {
+      "$oid": "6ab03edd5ca0e65aeaa4467d"
+    },
+    {
+      "$oid": "6ab03eac5ca0e65aeaa44677"
+    },
+    {
+      "$oid": "6ab03ed95ca0e65aeaa4467c"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/obra-dinn.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1ff3"
+  },
+  "nombreJuego": "Death Stranding",
+  "descripcionJuego": "Un juego de aventuras sobre reconectar una sociedad fragmentada haciendo entregas.",
+  "precioJuego": 2990,
+  "edadMinima": 18,
+  "categorias": [
+    {
+      "$oid": "6ab03eac5ca0e65aeaa44677"
+    },
+    {
+      "$oid": "6ab04482f93e76201ce956f5"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/death-stranding.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1ff4"
+  },
+  "nombreJuego": "Sekiro: Shadows Die Twice",
+  "descripcionJuego": "Un juego de acción y espadas ambientado en el Japón feudal.",
+  "precioJuego": 2990,
+  "edadMinima": 16,
+  "categorias": [
+    {
+      "$oid": "6ab04482f93e76201ce956f5"
+    },
+    {
+      "$oid": "6ab03eb05ca0e65aeaa44678"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/sekiro.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1ff5"
+  },
+  "nombreJuego": "Monster Hunter: World",
+  "descripcionJuego": "Un juego de acción y rol sobre cazar criaturas gigantes en equipo.",
+  "precioJuego": 1990,
+  "edadMinima": 16,
+  "categorias": [
+    {
+      "$oid": "6ab04482f93e76201ce956f5"
+    },
+    {
+      "$oid": "6ab03eb05ca0e65aeaa44678"
+    },
+    {
+      "$oid": "6ab03ed55ca0e65aeaa4467b"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/monster-hunter.jpg",
+  "monedaJuego": "UYU"
+},
+{
+  "_id": {
+    "$oid": "6ab84f1dbc25d42b12df1ff6"
+  },
+  "nombreJuego": "It Takes Two",
+  "descripcionJuego": "Un juego cooperativo de aventuras sobre una pareja convertida en muñecos.",
+  "precioJuego": 1990,
+  "edadMinima": 10,
+  "categorias": [
+    {
+      "$oid": "6ab03eac5ca0e65aeaa44677"
+    },
+    {
+      "$oid": "6ab03ed55ca0e65aeaa4467b"
+    },
+    {
+      "$oid": "6ab03ed25ca0e65aeaa4467a"
+    }
+  ],
+  "active": true,
+  "imagenJuego": "https://res.cloudinary.com/qxzznv2x/image/upload/v1790539340/it-takes-two.jpg",
+  "monedaJuego": "UYU"
+}]

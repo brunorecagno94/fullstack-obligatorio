@@ -1,0 +1,955 @@
+[{
+  "_id": {
+    "$oid": "6ab00a84bc840a9e6babd91d"
+  },
+  "nombreUsuario": "admin1",
+  "email": "admin@estim.com",
+  "password": "$2b$10$LZ.cEMbzfJjEAjc8C08JGOmeqj.Ce6RQ0BGBF7nSJUJFfnUmi5p5u",
+  "fechaNacimiento": "1994-02-25",
+  "rol": "admin",
+  "active": true
+},
+{
+  "_id": {
+    "$oid": "6ab03c4c9016969ba1e029ee"
+  },
+  "nombreUsuario": "fredrick_upton",
+  "email": "tiara64@yahoo.com",
+  "password": "$2b$12$UoQTmm.fF0dxzNkf1BX0VOElAX1t.qNN58sWETvsAQ21OxtVfj0r6",
+  "fechaNacimiento": {
+    "$date": "2000-05-20T00:00:00.000Z"
+  },
+  "nombre": "Ila",
+  "apellido": "Tremblay",
+  "pais": "Reunion",
+  "rol": "usuario",
+  "planUsuario": "plus",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab03c589016969ba1e029ef"
+  },
+  "nombreUsuario": "nicklaus.kerluke18",
+  "email": "alvis.brakus@gmail.com",
+  "password": "$2b$12$pPhI.IJvnVOVw3nuaDDRjO9buvDsblaOrV5sJFXNSyDJNvVJ2ezNi",
+  "fechaNacimiento": {
+    "$date": "2000-05-20T00:00:00.000Z"
+  },
+  "nombre": "Tyree",
+  "apellido": "Bernier",
+  "pais": "Uganda",
+  "rol": "usuario",
+  "planUsuario": "plus",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab03c7b9016969ba1e029f0"
+  },
+  "nombreUsuario": "martine.feil",
+  "email": "carol_nader@gmail.com",
+  "password": "$2b$12$.JauxUkc2ynKCWuPJyD5qeH0YAeVCu0k.QFxjcSrzwuuV1CHJSOau",
+  "fechaNacimiento": {
+    "$date": "2000-05-20T00:00:00.000Z"
+  },
+  "nombre": "Houston",
+  "apellido": "Hermiston",
+  "pais": "Kyrgyz Republic",
+  "rol": "usuario",
+  "planUsuario": "plus",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab03c8b9016969ba1e029f1"
+  },
+  "nombreUsuario": "raheem42",
+  "email": "chad29@gmail.com",
+  "password": "$2b$12$94YT9Y5NkRoJNr3/TnVJ/uk7zx2eem8LFhXNIV17KimaKvgMgaHPy",
+  "fechaNacimiento": {
+    "$date": "2000-05-20T00:00:00.000Z"
+  },
+  "nombre": "Janick",
+  "apellido": "Weber",
+  "pais": "Panama",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab03cfc9016969ba1e029f3"
+  },
+  "nombreUsuario": "chester_stroman77",
+  "email": "cornelius.vonrueden31@hotmail.com",
+  "password": "$2b$12$vTuZUSYUrnCU7oY.1KFvG.pggSI/8CJ9sXSX8nLJQhiAxH8hTdQbG",
+  "fechaNacimiento": {
+    "$date": "2000-05-20T00:00:00.000Z"
+  },
+  "nombre": "Luella",
+  "apellido": "Herman",
+  "pais": "Latvia",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab03df49016969ba1e029f4"
+  },
+  "nombreUsuario": "hershel_yundt",
+  "email": "guido31@gmail.com",
+  "password": "$2b$12$kSUPwy828BvV.8dajEADMunxC9arfzJIuJ/GrD6.zG2dPyQWghUne",
+  "fechaNacimiento": {
+    "$date": "2000-05-20T00:00:00.000Z"
+  },
+  "nombre": "Priscilla",
+  "apellido": "Robel",
+  "pais": "Mexico",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab03e0f9016969ba1e029f5"
+  },
+  "nombreUsuario": "zechariah_bernhard",
+  "email": "lexie_swift@yahoo.com",
+  "password": "$2b$12$w1hy76f9aK18kOK0QXhxRum/XeEb/rPmfan98DTt9aeBJpW4bL4K2",
+  "fechaNacimiento": {
+    "$date": "2000-05-20T00:00:00.000Z"
+  },
+  "nombre": "Bryana",
+  "apellido": "Turner",
+  "pais": "Luxembourg",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab049bb84e1441457a6d880"
+  },
+  "nombreUsuario": "lucas77",
+  "email": "kayla47@gmail.com",
+  "password": "$2b$12$aW.IQs0c/./xQsmbA2zwleKHELrllnIt8NoV3Z2uOXSLod.W.WBBu",
+  "fechaNacimiento": {
+    "$date": "2000-05-20T00:00:00.000Z"
+  },
+  "nombre": "Krystina",
+  "apellido": "Lakin",
+  "pais": "Ukraine",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab04a1784e1441457a6d882"
+  },
+  "nombreUsuario": "marley66",
+  "email": "martina.steuber17@gmail.com",
+  "password": "$2b$12$KFeTSrO7Ed3Dcpl4BaczuOA6LV/LQAxtUsg2eKTtewUFIK8mTllEK",
+  "fechaNacimiento": {
+    "$date": "2000-05-20T00:00:00.000Z"
+  },
+  "nombre": "Lilyan",
+  "apellido": "Vandervort",
+  "pais": "Denmark",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab04ae084e1441457a6d885"
+  },
+  "nombreUsuario": "domenico58",
+  "email": "fanny_rippin68@hotmail.com",
+  "password": "$2b$12$DMAhIob2rGtaEJhS04b.sOVZrwDS7OaBSrIWMfsnUCvcxcf30eKPG",
+  "fechaNacimiento": {
+    "$date": "2000-05-20T00:00:00.000Z"
+  },
+  "nombre": "Junius",
+  "apellido": "Champlin",
+  "pais": "Philippines",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab04b5884e1441457a6d887"
+  },
+  "nombreUsuario": "coty44",
+  "email": "colton_schneider@hotmail.com",
+  "password": "$2b$12$hb3Mogc8m.EFV3k9ageMJuXV2CwAvO6j5rKKjBhglIvxUokVX7Cwi",
+  "fechaNacimiento": {
+    "$date": "2000-05-20T00:00:00.000Z"
+  },
+  "nombre": "Darion",
+  "apellido": "Braun",
+  "pais": "Finland",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab04b9248b23dd4e13ac9b0"
+  },
+  "nombreUsuario": "erling.cummings",
+  "email": "trey29@yahoo.com",
+  "password": "$2b$12$nvsEJKVFcspGPW2Y2qbSpupFqXAj0Wjd7wVudKwtfZO8wslbsJJX2",
+  "fechaNacimiento": {
+    "$date": "2000-05-20T00:00:00.000Z"
+  },
+  "nombre": "Estel",
+  "apellido": "Walter",
+  "pais": "Yemen",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab04e1948b23dd4e13ac9b3"
+  },
+  "nombreUsuario": "dejuan.jast39",
+  "email": "rex_schoen@yahoo.com",
+  "password": "$2b$12$YP3qkqInDKeqN1QsqrLzGO6CG2LHiqYTKAlwbsrhCa.m2xdKVyG2G",
+  "fechaNacimiento": {
+    "$date": "2000-05-20T00:00:00.000Z"
+  },
+  "nombre": "Jadon",
+  "apellido": "O'Conner",
+  "pais": "Andorra",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab04ef648b23dd4e13ac9b5"
+  },
+  "nombreUsuario": "fredy.erdman",
+  "email": "christine92@yahoo.com",
+  "password": "$2b$12$NCbVilf8Gs8acwKVhtPHl.4EkRAJvgnT7SbZSEKrBCssxCdA88kb.",
+  "fechaNacimiento": {
+    "$date": "2000-05-20T00:00:00.000Z"
+  },
+  "nombre": "Wayne",
+  "apellido": "Hagenes",
+  "pais": "Gabon",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab051e61d8687aa25af4e8a"
+  },
+  "nombreUsuario": "claudia2",
+  "email": "kian.hoeger71@yahoo.com",
+  "password": "$2b$12$GGjLauQybhhkHGThQM5/suPsq5FfYQGfz0koGSkpvff/kzLfswVwK",
+  "fechaNacimiento": {
+    "$date": "2000-05-20T00:00:00.000Z"
+  },
+  "nombre": "Amelia",
+  "apellido": "Kohler",
+  "pais": "Swaziland",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab051e81d8687aa25af4e8b"
+  },
+  "nombreUsuario": "aurelie_crona",
+  "email": "gretchen.oconnell21@gmail.com",
+  "password": "$2b$12$6QnVDBh8Zw9YS2A5FhsqOe1TQB1i.UKes6.Z3PN5ONcFMksHoVITS",
+  "fechaNacimiento": {
+    "$date": "2000-05-20T00:00:00.000Z"
+  },
+  "nombre": "Aubrey",
+  "apellido": "Zboncak",
+  "pais": "Botswana",
+  "rol": "usuario",
+  "planUsuario": "plus",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab051e91d8687aa25af4e8c"
+  },
+  "nombreUsuario": "kaylee_howe",
+  "email": "marina_ledner@yahoo.com",
+  "password": "$2b$12$/s6DmrhGiEviRH9KdZxYrOaq0havVcPw8UPoFGPloOZJhBi5Nqdry",
+  "fechaNacimiento": {
+    "$date": "2000-05-20T00:00:00.000Z"
+  },
+  "nombre": "Eino",
+  "apellido": "Williamson",
+  "pais": "Syrian Arab Republic",
+  "rol": "usuario",
+  "planUsuario": "plus",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab0523e1d8687aa25af4e8e"
+  },
+  "nombreUsuario": "violet49",
+  "email": "christian45@gmail.com",
+  "password": "$2b$12$c0UNYpgwgn8OPqQmcKR.me5E0h0tRZ0mBSt4Gr5MZ9nGUjfij0vTC",
+  "fechaNacimiento": {
+    "$date": "2000-05-20T00:00:00.000Z"
+  },
+  "nombre": "Paige",
+  "apellido": "Mann",
+  "pais": "Sri Lanka",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab052401d8687aa25af4e8f"
+  },
+  "nombreUsuario": "mariane.hessel14",
+  "email": "john52@hotmail.com",
+  "password": "$2b$12$kK9B183Y66kOCEHCGRiP5.EBd22B7.n1wgM66374RefHBnviRhJ8u",
+  "fechaNacimiento": {
+    "$date": "2000-05-20T00:00:00.000Z"
+  },
+  "nombre": "Nestor",
+  "apellido": "Jakubowski",
+  "pais": "Egypt",
+  "rol": "usuario",
+  "planUsuario": "plus",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab052411d8687aa25af4e90"
+  },
+  "nombreUsuario": "fermin_crooks65",
+  "email": "orlo_jakubowski@gmail.com",
+  "password": "$2b$12$KHsYk6KkyfikbM662H5WEO1dlyS76XPASR4eeobjeGF0OJsupHuMK",
+  "fechaNacimiento": {
+    "$date": "2000-05-20T00:00:00.000Z"
+  },
+  "nombre": "Lloyd",
+  "apellido": "Johns",
+  "pais": "France",
+  "rol": "usuario",
+  "planUsuario": "plus",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab052df1d8687aa25af4e92"
+  },
+  "nombreUsuario": "ernesto44",
+  "email": "caroline_miller86@yahoo.com",
+  "password": "$2b$12$V4K1p3n7fhUxSazPWCjkC.siqDH93g3ilgvzXKlCW/YDo5gQzytG2",
+  "fechaNacimiento": {
+    "$date": "2000-05-20T00:00:00.000Z"
+  },
+  "nombre": "Jeanie",
+  "apellido": "Hickle",
+  "pais": "New Caledonia",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab052e11d8687aa25af4e93"
+  },
+  "nombreUsuario": "laverna.wilkinson",
+  "email": "jade5@yahoo.com",
+  "password": "$2b$12$SFGfwNpkLlUkviw6FRkQ3.GXqA0zdRTeTySl4SQsbVbWglnjnceDS",
+  "fechaNacimiento": {
+    "$date": "2000-05-20T00:00:00.000Z"
+  },
+  "nombre": "Coralie",
+  "apellido": "Rowe",
+  "pais": "Iran",
+  "rol": "usuario",
+  "planUsuario": "plus",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab052e21d8687aa25af4e94"
+  },
+  "nombreUsuario": "al_runte22",
+  "email": "sabryna_thompson@yahoo.com",
+  "password": "$2b$12$iWEeafRReZOYKNAgLLVSZecK6n3yknzt8w.lj7V5Vl0Y3UE3CFIgu",
+  "fechaNacimiento": {
+    "$date": "2000-05-20T00:00:00.000Z"
+  },
+  "nombre": "Cleveland",
+  "apellido": "Schinner",
+  "pais": "Croatia",
+  "rol": "usuario",
+  "planUsuario": "plus",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab053521d8687aa25af4e96"
+  },
+  "nombreUsuario": "alison.white",
+  "email": "danielle_lemke52@hotmail.com",
+  "password": "$2b$12$nKrUbTbKEiX0K5jdLoI9PufK9.nzS.SZy141oNzoj/B5Nx3zMSEAu",
+  "fechaNacimiento": {
+    "$date": "2000-05-20T00:00:00.000Z"
+  },
+  "nombre": "Willa",
+  "apellido": "Cruickshank",
+  "pais": "Norway",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab84fc22ea3d4a0027f1bb3"
+  },
+  "nombreUsuario": "judge_bednar16",
+  "email": "ana88@yahoo.com",
+  "password": "$2b$12$JZeVac/EnLTVnMK4ZXfdWOqlM1MNHjvdLIhwx1QoUUtwp9nEGltH6",
+  "fechaNacimiento": {
+    "$date": "2000-05-20T00:00:00.000Z"
+  },
+  "nombre": "Ross",
+  "apellido": "Grant",
+  "pais": "Cook Islands",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab855c638261f1dea5569fb"
+  },
+  "nombreUsuario": "troy_pfannerstill18",
+  "email": "palma.farrell95@hotmail.com",
+  "password": "$2b$12$lSzegPMkbNvMDiSBCxTB0OrVsRIS2nhIiD4tDSlX39MAbSCHxsjqe",
+  "fechaNacimiento": {
+    "$date": "2000-05-20T00:00:00.000Z"
+  },
+  "nombre": "Grayce",
+  "apellido": "Ziemann",
+  "pais": "Cyprus",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab85c385b8de6e7438b8924"
+  },
+  "nombreUsuario": "jaron_mccullough78",
+  "email": "oda.klocko@hotmail.com",
+  "password": "$2b$12$m0UgPU3UORlu132Fi0BYaeek1v5zqVx3YG7JluCHF0IRznKc4NpJu",
+  "fechaNacimiento": {
+    "$date": "2000-05-20T00:00:00.000Z"
+  },
+  "nombre": "Louie",
+  "apellido": "Treutel",
+  "pais": "Bolivia",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab9562dc42126fe6b2102da"
+  },
+  "nombreUsuario": "kelli.davis93",
+  "email": "yoshiko.leuschke@yahoo.com",
+  "password": "$2b$12$SnUJM1xhAJAA8ui12AkllexjX/5o3k8Ir5YY0TYiLpqog.7KU1lRS",
+  "fechaNacimiento": {
+    "$date": "2010-05-20T00:00:00.000Z"
+  },
+  "nombre": "Jovanny",
+  "apellido": "Carter",
+  "pais": "Japan",
+  "rol": "usuario",
+  "planUsuario": "plus",
+  "juegosComprados": [],
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab95691c42126fe6b2102db"
+  },
+  "nombreUsuario": "tre.dicki",
+  "email": "gideon_gerlach@yahoo.com",
+  "password": "$2b$12$Yrq2aexmEHlnT6hu3asQx.wc65/A.z/yFR9CpMklatCDioUDCbl0i",
+  "fechaNacimiento": {
+    "$date": "2010-05-20T00:00:00.000Z"
+  },
+  "nombre": "Torrey",
+  "apellido": "Weissnat",
+  "pais": "Luxembourg",
+  "rol": "usuario",
+  "planUsuario": "plus",
+  "juegosComprados": [],
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab957fbc42126fe6b2102dc"
+  },
+  "nombreUsuario": "dusty_schoen",
+  "email": "emile88@gmail.com",
+  "password": "$2b$12$P/Wf2FlsDjyJM48ly/WZqOri06C6jMV4DEBL/HJSdHU5TctXRe/NC",
+  "fechaNacimiento": {
+    "$date": "2010-05-20T00:00:00.000Z"
+  },
+  "nombre": "Olen",
+  "apellido": "Runte",
+  "pais": "Luxembourg",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "juegosComprados": [
+    {
+      "$oid": "6ab84f1cbc25d42b12df1fc6"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fd7"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fdc"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fdd"
+    }
+  ],
+  "active": true,
+  "__v": 4
+},
+{
+  "_id": {
+    "$oid": "6ab958c3c42126fe6b2102df"
+  },
+  "nombreUsuario": "hosea80",
+  "email": "monte.heidenreich99@yahoo.com",
+  "password": "$2b$12$UE4j8ppDGxdqlSdyyS4xye3hHULzbO17E75kGCqTEVibk8u0PrlRq",
+  "fechaNacimiento": {
+    "$date": "2010-05-20T00:00:00.000Z"
+  },
+  "nombre": "Wyatt",
+  "apellido": "Mann",
+  "pais": "Israel",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "juegosComprados": [
+    {
+      "$oid": "6ab84f1cbc25d42b12df1fc6"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fdc"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fdd"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fda"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fd7"
+    }
+  ],
+  "active": true,
+  "__v": 5
+},
+{
+  "_id": {
+    "$oid": "6ab95defc0dbef3eba21944b"
+  },
+  "nombreUsuario": "horacio.okuneva",
+  "email": "hiram_schneider8@hotmail.com",
+  "password": "$2b$12$0KTjs7C6GNaFvbImIBQ/suWvTkfmwvlK3KZ5ofPSePHyNGNcF2OfW",
+  "fechaNacimiento": {
+    "$date": "2010-05-20T00:00:00.000Z"
+  },
+  "nombre": "Herbert",
+  "apellido": "Kunde",
+  "pais": "Japan",
+  "rol": "usuario",
+  "planUsuario": "plus",
+  "juegosComprados": [],
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab95e53c0dbef3eba21944d"
+  },
+  "nombreUsuario": "clementine49",
+  "email": "verner.champlin93@yahoo.com",
+  "password": "$2b$12$TNgOt64JkzDw.DGf5W/9n.KFu3s.RhLsMyjHTszGYUMILy27thAxa",
+  "fechaNacimiento": {
+    "$date": "2010-05-20T00:00:00.000Z"
+  },
+  "nombre": "Dino",
+  "apellido": "Herzog",
+  "pais": "Bangladesh",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "juegosComprados": [
+    {
+      "$oid": "6ab84f1cbc25d42b12df1fc6"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fdc"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fdd"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fda"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fd7"
+    }
+  ],
+  "active": true,
+  "__v": 5
+},
+{
+  "_id": {
+    "$oid": "6ab97ac32f9c0dd031221112"
+  },
+  "nombreUsuario": "deron.schmidt",
+  "email": "johanna.gerlach35@hotmail.com",
+  "password": "$2b$12$viow7JOnUeqDVMsTHlcPuOwEG1FsuwKen.p8bIxULGBk5TzYa7sYq",
+  "fechaNacimiento": {
+    "$date": "2010-05-20T00:00:00.000Z"
+  },
+  "nombre": "Osvaldo",
+  "apellido": "Senger",
+  "pais": "Christmas Island",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "juegosComprados": [
+    {
+      "$oid": "6ab84f1cbc25d42b12df1fc6"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fdc"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fdd"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fda"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fd7"
+    }
+  ],
+  "active": true,
+  "__v": 5
+},
+{
+  "_id": {
+    "$oid": "6ab9800713a5a89e7295c24e"
+  },
+  "nombreUsuario": "ima_walker11",
+  "email": "monica.sauer78@gmail.com",
+  "password": "$2b$12$vA8sPW1B4oej3mgnoGY06OlSaDmx0qQbpetfsmXR7NeEkhy16sq/C",
+  "fechaNacimiento": {
+    "$date": "2010-05-20T00:00:00.000Z"
+  },
+  "nombre": "Kamryn",
+  "apellido": "Hermiston",
+  "pais": "Italy",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "juegosComprados": [
+    {
+      "$oid": "6ab84f1cbc25d42b12df1fc6"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fdc"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fdd"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fda"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fd7"
+    }
+  ],
+  "active": true,
+  "__v": 5
+},
+{
+  "_id": {
+    "$oid": "6ab981bc13a5a89e7295c252"
+  },
+  "nombreUsuario": "jacynthe.gottlieb",
+  "email": "ahmad.gerlach35@hotmail.com",
+  "password": "$2b$12$REZh9JL4A03iONw6H/OPEuYBsrpOaydt4Kaw1HOGXUzN14rVxJWpe",
+  "fechaNacimiento": {
+    "$date": "2010-05-20T00:00:00.000Z"
+  },
+  "nombre": "Euna",
+  "apellido": "Pacocha",
+  "pais": "Lithuania",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "juegosComprados": [
+    {
+      "$oid": "6ab84f1cbc25d42b12df1fc6"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fdc"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fdd"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fda"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fd7"
+    }
+  ],
+  "active": true,
+  "__v": 5
+},
+{
+  "_id": {
+    "$oid": "6ab9836313a5a89e7295c256"
+  },
+  "nombreUsuario": "helga23",
+  "email": "dariana_kozey9@yahoo.com",
+  "password": "$2b$12$y9RAnoNCclWA62LNWbSB8unzwqutQC6rqGRb17p32uOds0w0Ex206",
+  "fechaNacimiento": {
+    "$date": "2010-05-20T00:00:00.000Z"
+  },
+  "nombre": "Marielle",
+  "apellido": "Kiehn",
+  "pais": "Norfolk Island",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "juegosComprados": [
+    {
+      "$oid": "6ab84f1cbc25d42b12df1fc6"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fdc"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fdd"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fda"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fd7"
+    }
+  ],
+  "active": true,
+  "__v": 5
+},
+{
+  "_id": {
+    "$oid": "6ab98cfc9ca472cd2b71ea64"
+  },
+  "nombreUsuario": "terence.konopelski39",
+  "email": "jacinto_brown85@gmail.com",
+  "password": "$2b$12$6Z1kEeL2BMAzAlYuumG.Kuc/t.iXI.X2uoaOSTFTq32b4wB4BbLDS",
+  "fechaNacimiento": {
+    "$date": "2010-05-20T00:00:00.000Z"
+  },
+  "nombre": "Raina",
+  "apellido": "Green",
+  "pais": "Equatorial Guinea",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "juegosComprados": [
+    {
+      "$oid": "6ab84f1cbc25d42b12df1fc6"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fdc"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fdd"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fda"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fd7"
+    }
+  ],
+  "active": true,
+  "__v": 5
+},
+{
+  "_id": {
+    "$oid": "6ab997aa7ca96b28d08e553a"
+  },
+  "nombreUsuario": "daniela_leuschke62",
+  "email": "buddy_blick@hotmail.com",
+  "password": "$2b$12$mKiA58nuYVZ6CVNxGufXwOcDysCmOmft3IiGiXl2BCwzMcyO8uinO",
+  "fechaNacimiento": {
+    "$date": "2010-05-20T00:00:00.000Z"
+  },
+  "nombre": "Adah",
+  "apellido": "Dach",
+  "pais": "Martinique",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "juegosComprados": [
+    {
+      "$oid": "6ab84f1cbc25d42b12df1fc6"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fdc"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fdd"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fda"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fd7"
+    }
+  ],
+  "active": true,
+  "__v": 5
+},
+{
+  "_id": {
+    "$oid": "6ab998107ca96b28d08e553e"
+  },
+  "nombreUsuario": "vernon_aufderhar78",
+  "email": "wilma_hamill@hotmail.com",
+  "password": "$2b$12$0vR3UEjWiLlg4khNJLe0.ejVzEH3m.aD2mZ4sWUBWJ.ahVYE7..Bq",
+  "fechaNacimiento": {
+    "$date": "2010-05-20T00:00:00.000Z"
+  },
+  "nombre": "Dawson",
+  "apellido": "Goldner",
+  "pais": "Cambodia",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "juegosComprados": [
+    {
+      "$oid": "6ab84f1cbc25d42b12df1fc6"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fdc"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fdd"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fda"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fd7"
+    }
+  ],
+  "active": true,
+  "__v": 5
+},
+{
+  "_id": {
+    "$oid": "6ab99ff6e74b6748f7529337"
+  },
+  "nombreUsuario": "mazie3",
+  "email": "ashtyn19@yahoo.com",
+  "password": "$2b$12$oKnZk.CZijgaNtW2gQsLDeCEzhpGip6/ZfU/D5RolRV6R5yVt9tx2",
+  "fechaNacimiento": {
+    "$date": "2010-05-20T00:00:00.000Z"
+  },
+  "nombre": "Tiara",
+  "apellido": "Schoen",
+  "pais": "Tuvalu",
+  "rol": "usuario",
+  "planUsuario": "plus",
+  "juegosComprados": [],
+  "active": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6ab9a081e74b6748f7529338"
+  },
+  "nombreUsuario": "flo84",
+  "email": "hilda80@hotmail.com",
+  "password": "$2b$12$W0/pqsnnvnTdhdUouf72P.RmqCtFQAnQ2sPomLAHO7ik7rOP0K4wa",
+  "fechaNacimiento": {
+    "$date": "2010-05-20T00:00:00.000Z"
+  },
+  "nombre": "Carolina",
+  "apellido": "Johnson",
+  "pais": "Saint Pierre and Miquelon",
+  "rol": "usuario",
+  "planUsuario": "premium",
+  "juegosComprados": [
+    {
+      "$oid": "6ab84f1cbc25d42b12df1fc6"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fdc"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fdd"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fda"
+    },
+    {
+      "$oid": "6ab84f1dbc25d42b12df1fd7"
+    }
+  ],
+  "active": true,
+  "__v": 5
+}]
